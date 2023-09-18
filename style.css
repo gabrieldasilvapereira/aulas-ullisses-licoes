@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    "img img l1 l1 l1 l1"
+    "img img l2 l2 l2 l2"
+    "img img l3 l3 l3 l3";
+    /*organizar os blocos da tabela
+      estruturando a grade, ainda não estamos organizando os itens, só criando o grid
+      ao inspecionar, e clicando em "grid" no developer tools, dá pra ver o grid completo*/
+
+
+
+
+}
+
+.container img{
+    display: block;
+    max-width: 300px;
+    grid-area: img;
+
+
+}
+
+.item1{
+    grid-area: l1;
+}
+
+.item2{
+    grid-area: l3;
+}

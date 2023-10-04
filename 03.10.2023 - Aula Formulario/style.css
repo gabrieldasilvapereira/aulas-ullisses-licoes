@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: blue;
+}
+
+
+h1{
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+form{
+    background-color:aliceblue ;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.input{
+    margin-bottom: 15px;
+}
+

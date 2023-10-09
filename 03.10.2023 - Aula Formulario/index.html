@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -64,9 +64,43 @@
 
         </div>
 
+        <div class="input">
+            <label>Selecione seus gêneros favoritos:</label><br>
+            <input type="checkbox" name="ck_terror"><label> Terror</label><br>
+            <input type="checkbox"  name="ck_comedia"><label> Comédia</label><br>
+            <input type="checkbox" name="ck_acao"><label> Ação</label><br>
+            <input type="checkbox" name="ck_drama"><label> Drama</label>
+        </div>
+
+        <div class="input">
+            <label>Escolha um tema</label><br>
+            <input type="radio" name="rd_tema" value="claro" checked><label> Claro</label> <br>
+            <input type="radio" name="rd_tema" value="escuro"><label> Escuro</label>
+        </div>
+
+        <div class="input">
+            <label>Escolha um instrumento musical</label><br>
+            <select name="sl_inst">
+                <option value="ata">Atabaque</option>
+                <option value="bat">Bateria</option>
+                <option value="guit">Guitarra</option>
+                <option value="bass">Contrabaixo</option>
+                <option value="piano">Piano</option>
+                <option value="violao">Violão</option>
+            </select>
+        </div>
+
+        <div class="input">
+            <label>Deixe seu comentário:</label><br>
+            <textarea name="ta_coment"></textarea>
+        </div>
 
         <div class="input">
             <input type="submit" value="Enviar Formulário">
+        </div>
+
+        <div class="input">
+            <input type="reset" value="limpar">
         </div>
 
     </form>

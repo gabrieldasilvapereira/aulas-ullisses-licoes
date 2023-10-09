@@ -34,3 +34,18 @@ textarea{
     resize: none;
 }
 
+@media screen and (max-width:500px){
+    
+
+    form, textarea{
+        width: 100%;
+    }
+
+    form{
+        background-color: brown;
+    }
+
+ }
+
+/*Não está funcionando o @media querie*/
+

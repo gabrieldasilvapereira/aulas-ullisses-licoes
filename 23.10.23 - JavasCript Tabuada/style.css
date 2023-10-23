@@ -1,6 +1,13 @@
-body{
-    background-color: aquamarine;
+.bloco2{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(22, 200, 200);
 }
 
-
+.classe2{
+    height: 500px;
+    width: 50%;
+    background-color: blueviolet;
+}
 
